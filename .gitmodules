@@ -13,3 +13,6 @@
 [submodule "pack/utility/start/nerdtree"]
 	path = pack/utility/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "colors/PaperColor"]
+	path = colors/PaperColor
+	url = https://github.com/NLKNguyen/papercolor-theme.git
