@@ -6,12 +6,12 @@ This is a living repository for my current VIM configuration. Contents are subje
 Reminders
 ---------
 
- - Read to `this guide`_ for a summary of how to track vim plugins in vcs
- - To install the `author/foo.vim` plugin:
+- Read to `this guide`_ for a summary of how to track vim plugins in vcs
+- To install the `author/foo.vim` plugin:
     .. code-block:: shell
         
         $ git submodule add https://github.com/author/foo.git pack/plugins/start/foo
- - To clone to a new machine:
+- To clone to a new machine:
     .. code-block:: shell
         
        $ git clone --recursive https://github.com/blueschu/.vim.git
