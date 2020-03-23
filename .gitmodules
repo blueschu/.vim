@@ -1,0 +1,15 @@
+[submodule "pack/lang/start/rust.vim"]
+	path = pack/lang/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule "pack/nav/start/fzf.vim"]
+	path = pack/nav/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/utility/start/syntastic"]
+	path = pack/utility/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "pack/utility/start/tagbar"]
+	path = pack/utility/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/utility/start/nerdtree"]
+	path = pack/utility/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
