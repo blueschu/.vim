@@ -1,9 +1,8 @@
+set nocompatible
+
 " use `jj` or `jk` to exit insert mode
 inoremap jj <ESC>
 inoremap jk <ESC>
-
-set nocompatible
-
 
 " spell check shortcuts
 :set spelllang=en_US
@@ -50,4 +49,9 @@ set rtp+=~/.fzf
 " fzf configuration
 " https://github.com/junegunn/fzf#using-git
 " https://jesseleite.com/posts/2/its-dangerous-to-vim-alone-take-fzf
-
+nmap <Leader>f :GFiles<CR>
+nmap <Leader>F :Files<CR>
+nmap <Leader>b :Buffers<CR>
+nmap <Leader>h :History<CR>
+nmap <Leader>t :BTags<CR>
+nmap <Leader>T :Tags<CR>
