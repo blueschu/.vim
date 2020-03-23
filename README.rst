@@ -16,5 +16,7 @@ Reminders
         
        $ git clone --recursive https://github.com/blueschu/.vim.git
     
+    - Don't forget to also install `fzf`_!
 
 .. _This guide: https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560
+.. _fzf: https://github.com/junegunn/fzf
