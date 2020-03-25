@@ -75,3 +75,8 @@ silent! packadd YouCompleteMe
 
 " YouCompleteMe config
 let g:ycm_clangd_binary_path = "/usr/bin/clangd-9"
+
+" vim-airline config
+" let g:airline_theme='angr'
+let g:airline_theme='minimalist'
+
