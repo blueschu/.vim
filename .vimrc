@@ -6,8 +6,10 @@ inoremap jk <ESC>
 
 " spell check shortcuts
 :set spelllang=en_US
-nnoremap <leader>s :set spell! 
+nnoremap <leader>s :set spell!<CR>
 
+set showcmd
+set hidden
 
 " Always use spaces instead of tabs
 set expandtab
@@ -55,3 +57,7 @@ nmap <Leader>b :Buffers<CR>
 nmap <Leader>h :History<CR>
 nmap <Leader>t :BTags<CR>
 nmap <Leader>T :Tags<CR>
+
+
+" nerdtree config
+nmap <C-n> :NERDTreeToggle<CR>
