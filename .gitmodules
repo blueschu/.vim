@@ -19,3 +19,6 @@
 [submodule "pack/utility/start/vim-fugitive"]
 	path = pack/utility/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/utility/start/vim-airline"]
+	path = pack/utility/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
