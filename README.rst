@@ -16,8 +16,9 @@ Reminders
         
        $ git clone --recursive https://github.com/blueschu/.vim.git
     
-    - Don't forget to also install `fzf`_!
+    - If desired, install `fzf`_! Note that if ``fzf`` is not installed, this plugin will still be loaded, but all mappings will fail if used.
+    - If desired, install `YouCompleteMe`_. Note that this plugin will not be added unless ycm has been installed.
 
 .. _This guide: https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560
 .. _fzf: https://github.com/junegunn/fzf
-
+.. _YouCompleteMe: https://github.com/ycm-core/YouCompleteMe

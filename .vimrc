@@ -1,5 +1,8 @@
 set nocompatible
 
+" default to dark background
+set background=dark
+
 " use `jj` or `jk` to exit insert mode
 inoremap jj <ESC>
 inoremap jk <ESC>
@@ -8,8 +11,12 @@ inoremap jk <ESC>
 :set spelllang=en_US
 nnoremap <leader>s :set spell!<CR>
 
+" show partial commands in status var
 set showcmd
+" hide buffers by default instead of closing
 set hidden
+" better case-sensitivity when searching
+set smartcase
 
 " Always use spaces instead of tabs
 set expandtab
@@ -61,3 +68,10 @@ nmap <Leader>T :Tags<CR>
 
 " nerdtree config
 nmap <C-n> :NERDTreeToggle<CR>
+
+" Add the YouCompleteMe plugin if its available on this machine
+" See https://github.com/ycm-core/YouCompleteMe#full-installation-guide
+silent! packadd YouCompleteMe
+
+" YouCompleteMe config
+let g:ycm_clangd_binary_path = "/usr/bin/clangd-9"

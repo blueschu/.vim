@@ -22,3 +22,6 @@
 [submodule "pack/utility/start/vim-airline"]
 	path = pack/utility/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/utility/YouCompleteMe"]
+	path = pack/utility/opt/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
