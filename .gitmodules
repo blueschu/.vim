@@ -28,3 +28,13 @@
 [submodule "pack/utility/start/vim-airline-themes"]
 	path = pack/utility/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/utility/start/coc.nvim"]
+	path = pack/utility/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+	branch = release
+[submodule "pack/lang/start/haskell-vim"]
+	path = pack/lang/start/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
+[submodule "pack/lang/start/vim-hindent"]
+	path = pack/lang/start/vim-hindent
+	url = https://github.com/alx741/vim-hindent.git

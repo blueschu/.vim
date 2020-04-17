@@ -81,3 +81,7 @@ let g:ycm_clangd_binary_path = "/usr/bin/clangd-9"
 " let g:airline_theme='angr'
 let g:airline_theme='minimalist'
 
+" haskell-vim config
+let g:haskell_indent_where = 4
+let g:haskell_indent_before_where = 2
+let g:haskell_indent_after_bare_where = 2
