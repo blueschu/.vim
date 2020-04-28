@@ -38,3 +38,6 @@
 [submodule "pack/lang/start/vim-hindent"]
 	path = pack/lang/start/vim-hindent
 	url = https://github.com/alx741/vim-hindent.git
+[submodule "pack/utility/start/vim-gitgutter"]
+	path = pack/utility/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
